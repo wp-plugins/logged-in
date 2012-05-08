@@ -3,8 +3,8 @@ Contributors: chokladzingo
 Donate link: http://dessibelle.se/
 Tags: logged, in, login, log, redirect, users, visitors
 Requires at least: 2.7
-Tested up to: 3.2.1
-Stable tag: 1.0
+Tested up to: 3.3.2
+Stable tag: 1.0.1
 
 Allows you to close your site to non-logged in users, by redirecting them to the login page, displaying a message or a specific template file.
 
@@ -20,6 +20,11 @@ This section describes how to install the plugin and get it working.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 1.0.1 =
+* Added setting to allow visitors to access feeds
+* Fixed bug affecting IIS servers, causing redirection loops
+* Added romaninan localization
 
 = 1.0 =
 * Added settings GUI
@@ -38,3 +43,6 @@ List of available filters and their expected return values.
 * `logged_in_fallback_filename`: A fallback file located in your `stylesheet_directory`, used by the `fallback` action.
 * `logged_in_fallback_path`: A full path to the fallback file, used by the `fallback` action.
 * `logged_in_message`: A message displayed by the `message` action.
+
+== Credits ==
+* Romanian localization by [Web Hosting Geeks](http://webhostinggeeks.com/)
